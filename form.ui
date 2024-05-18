@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>588</width>
+    <height>372</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>90</y>
+     <width>251</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>24</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>WELCOME</string>
+   </property>
+   <property name="cursorPosition">
+    <number>7</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>591</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/res/C:/Users/ASUS/OneDrive/Gambar/cakep.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>lineEdit</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

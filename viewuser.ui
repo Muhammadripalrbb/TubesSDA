@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewUser</class>
+ <widget class="QMainWindow" name="ViewUser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1108</width>
+    <height>668</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QDateEdit" name="entryDateEdit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>320</y>
+      <width>201</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="searchLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>490</y>
+      <width>201</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>40</y>
+      <width>251</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:700; color:#060606;&quot;&gt;TAMPILAN USER&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>550</y>
+      <width>80</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Create</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>410</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#060606;&quot;&gt;Kontak Pasien&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ageLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>270</y>
+      <width>201</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="idLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>170</y>
+      <width>201</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>270</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#060606;&quot;&gt;Umur&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>320</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#060606;&quot;&gt;Tanggal Masuk&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>370</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#060606;&quot;&gt;Tanggal Keluar&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="contactLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>420</y>
+      <width>201</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>170</y>
+      <width>631</width>
+      <height>321</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="exitDateEdit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>370</y>
+      <width>201</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonCari">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>550</y>
+      <width>80</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>170</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#060606;&quot;&gt;ID&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nameLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>220</y>
+      <width>201</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>480</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#060606;&quot;&gt;Cari ID Pasien&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>220</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#060606;&quot;&gt;Nama&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>0</y>
+      <width>601</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/res/C:/Users/ASUS/OneDrive/Gambar/cakep.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>360</y>
+      <width>601</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/res/C:/Users/ASUS/OneDrive/Gambar/cakep.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>360</y>
+      <width>601</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/res/C:/Users/ASUS/OneDrive/Gambar/cakep.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>0</y>
+      <width>601</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/res/C:/Users/ASUS/OneDrive/Gambar/cakep.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_13</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label</zorder>
+   <zorder>tableView</zorder>
+   <zorder>exitDateEdit</zorder>
+   <zorder>entryDateEdit</zorder>
+   <zorder>ageLineEdit</zorder>
+   <zorder>nameLineEdit</zorder>
+   <zorder>idLineEdit</zorder>
+   <zorder>contactLineEdit</zorder>
+   <zorder>searchLineEdit</zorder>
+   <zorder>pushButtonCari</zorder>
+   <zorder>addButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1108</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
